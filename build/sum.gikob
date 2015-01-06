@@ -1,0 +1,17 @@
+ﾍﾝｽｳ x, y, sum, temp, i, j
+ﾒｼﾞﾙｼ gikoMain
+  ｲﾚﾃﾐﾛ x
+  ｲﾚﾃﾐﾛ y
+  i = 1
+  ﾙｰﾌﾟ i <= x ｶｲｼ
+    j = 1
+    temp = 1
+    ﾙｰﾌﾟ j <= y ｶｲｼ
+      temp = temp * i
+      j = j + 1
+    ﾙｰﾌﾟｵﾜﾘ
+    sum = sum + temp
+    i = i + 1
+  ﾙｰﾌﾟｵﾜﾘ
+  ﾎｻﾞｹ sum
+  ｶｴﾚ
